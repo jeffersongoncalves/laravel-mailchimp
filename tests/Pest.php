@@ -1,3 +1,5 @@
 <?php
 
-uses(Jeffersongoncalves\LaravelMailchimp\Tests\TestCase::class)->in('Feature', 'Unit');
+use JeffersonGoncalves\Mailchimp\Tests\TestCase;
+
+uses(TestCase::class)->in('Feature', 'Unit');
